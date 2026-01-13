@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "playwright": "^1.54.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.5.0",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "allure": "^0.0.0",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "cucumber": "cucumber-js --config config/cucumber.js"
+  },
+  "name": "playwright-saucedemo-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

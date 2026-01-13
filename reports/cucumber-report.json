@@ -1,0 +1,126 @@
+[
+  {
+    "description": "Feature description: As a user, I want to complete the checkout process in Saucedemo so that I can purchase items from the store.",
+    "elements": [
+      {
+        "description": "",
+        "id": "checkout;successful-checkout-with-valid-information",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Successful checkout with valid information",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A browser is launched",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User login to Saucedemo as standard user",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User add item to cart",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User should be able to checkout item, then logout",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "checkout",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Checkout",
+    "tags": [],
+    "uri": "src\\tests\\features\\Checkout.feature"
+  },
+  {
+    "description": "Feature description: As a user, I want to sort items in Saucedemo so that I can view products based on my preferences.",
+    "elements": [
+      {
+        "description": "",
+        "id": "sort;sort-items-by-price-from-low-to-high",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Sort items by price from low to high",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A browser is launched",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User login to Saucedemo as standard user",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User sort item by Price Low to High",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User should be able to see items sorted by Price Low to High",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sort",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sort",
+    "tags": [],
+    "uri": "src\\tests\\features\\Sort.feature"
+  }
+]
